@@ -24,7 +24,8 @@ For config:
 cp config.example.py config.py
 # enter your config data in config.py
 ```
-
+* Pokémon TCG API key from https://dev.pokemontcg.io/
+* Create a Slack app and get a bot token with scopes `channels:join` and `chat:write` following the steps in https://api.slack.com/authentication/basics
 
 ## Usage
 
