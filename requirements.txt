@@ -1,0 +1,4 @@
+requests>=2.25.1
+backoff>=1.10.0
+slack_sdk>=3.0
+slackeventsapi>=2.1.0
