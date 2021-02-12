@@ -5,5 +5,6 @@ TcgApiConfig = {
 
 SlackConfig = {
     "bot_token": "xoxb-XXXXXXXXXXX",
-    "channel": "fun-bot-stuff"
+    "channel": "fun-bot-stuff",
+    "username": "bot-username"
 }

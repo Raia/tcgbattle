@@ -3,9 +3,9 @@ from pokemon import Pokemon
 class SlackMessageBuilder:
     DIVIDER_BLOCK = {"type": "divider"}
 
-    def __init__(self, channel):
+    def __init__(self, channel, username):
         self.channel = channel
-        self.username = "tcgbattlebot"
+        self.username = username
 
     def battle_start_payload(self, mon1_name: str, mon2_name: str):
         return {

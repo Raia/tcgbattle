@@ -13,7 +13,7 @@ tcg_api = PokemonTCGAPI()
 VALID_CARDS = []
 
 slack_client = WebClient(token=SlackConfig.get("bot_token"))
-slack_builder = SlackMessageBuilder(SlackConfig.get("channel"))
+slack_builder = SlackMessageBuilder(SlackConfig.get("channel"), SlackConfig.get("username"))
 
 """ 
 Get all Pokémon TCG set cards that are valid for battle.
